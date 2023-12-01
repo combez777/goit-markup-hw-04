@@ -435,11 +435,13 @@ header {
   margin-right: 0px;
 }
 
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--first-ligo-color);
 }
 
-.client-link:hover svg {
+.client-link:hover svg,
+.classes-list:focus svg {
   fill: var(--first-ligo-color);
 }
 
