@@ -441,7 +441,7 @@ header {
 }
 
 .client-link:hover svg,
-.classes-list:focus svg {
+.client-link:focus svg {
   fill: var(--first-ligo-color);
 }
 
